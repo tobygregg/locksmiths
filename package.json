@@ -1,0 +1,13 @@
+{
+  "name": "guernsey-locksmiths",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Guernsey Locksmiths Limited, Guernsey",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
